@@ -11,6 +11,7 @@
         android:theme="@style/Theme.ButtoncounterBallou">
         <activity
             android:name=".MainActivity"
+            android:configChanges="orientation|screenSize">
             android:label="@string/app_name"
             android:theme="@style/Theme.ButtoncounterBallou.NoActionBar">
             <intent-filter>
